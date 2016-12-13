@@ -3,7 +3,7 @@ Intesc Electronics & Embedded - Daniel Hernández Rodríguez - Agosto 2016
 Práctica 1. Muestra el uso de LEDs, conectados en el Puerto J, en Miuva PRO
 */
 
-#include <18F87J50.h>
+#include <18F87J50.h>            //libreria para el microcontrolador (Modificado por ISAI)
 #fuses HSPLL, NOWDT, NOPROTECT, NODEBUG, PLL2
 #use delay (clock=24M)           
 #use standard_io(J)              //Predefine el puerto J
